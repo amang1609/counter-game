@@ -1,0 +1,47 @@
+body {
+    background: url(".././image/mainBcg.jpeg");
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    min-height:500px;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    box-shadow: 0 5px 15px 0px #00000B;
+}
+
+.counter {
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px 0px 0px 70px;
+}
+
+#count {
+    font-size: 270px;
+    margin: 0px 0px 10px 70px;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    width: 120px;
+    padding: 10px;
+    margin-left: 55px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 0px #00000B;
+}
+
+button:hover {
+    background-color: rgb(110, 195, 235);
+}
+
